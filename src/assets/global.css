@@ -1,0 +1,43 @@
+/* 清除所有默认样式 */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  html, body {
+    width: 100%;
+    height: 100%;
+    font-family: Arial, sans-serif;
+  }
+  
+  ul, ol {
+    list-style: none;
+  }
+  
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+  }
+  
+  button {
+    background: none;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+  }
+  
+  table {
+    border-collapse: collapse;
+    border-spacing: 0;
+  }
+/* 预留 nav 高度 */
+body {
+    padding-bottom: 60px; /* 根据 nav 的高度调整 */
+  }
